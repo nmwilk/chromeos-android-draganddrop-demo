@@ -18,9 +18,8 @@ import android.content.ClipData;
 import android.content.ClipDescription;
 import android.graphics.Color;
 import android.net.Uri;
-import android.os.ParcelFileDescriptor;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.ParcelFileDescriptor;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.DragEvent;
@@ -32,6 +31,8 @@ import android.widget.TextView;
 import java.io.FileDescriptor;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import static android.view.View.DRAG_FLAG_GLOBAL;
 
